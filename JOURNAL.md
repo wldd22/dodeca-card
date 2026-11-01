@@ -6,7 +6,7 @@
 > [!NOTE]
 > This devlog is mirrored from [Half Life](https://halflife.hackclub.com) ([open the project](https://halflife.hackclub.com/projects/pv84cxeni457shh4h0gymyvd)). Editing it here will not change the platform's copy, and the next sync overwrites this file.
 
-> A stylised business card with segmented displays and a capacitive slider.
+> A stylised business card with a capacitive slider and two segmented displays to show live information.
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
