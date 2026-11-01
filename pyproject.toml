@@ -1,0 +1,9 @@
+[project]
+name = "dodeca-card"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "adafruit-circuitpython-typing>=1.13.0",
+    "board>=1.0",
+    "circuitpython-stubs>=10.3.1",
+]
