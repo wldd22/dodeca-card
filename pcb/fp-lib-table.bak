@@ -1,4 +1,6 @@
 (fp_lib_table
 	(version 7)
 	(lib (name "Seeed Studio XIAO Series Library") (type "KiCad") (uri "${KIPRJMOD}/Seeed Studio XIAO Series Library") (options "") (descr ""))
+	(lib (name "Touch Slider") (type "KiCad") (uri "${KIPRJMOD}/Touch Slider.pretty") (options "") (descr ""))
+	(lib (name "QR Code") (type "KiCad") (uri "${KIPRJMOD}/QR Code.pretty") (options "") (descr ""))
 )
