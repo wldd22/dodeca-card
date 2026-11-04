@@ -9,7 +9,7 @@ PCB made in **KiCad**<br>
 Firmware uses **CircuitPython**
 
 **Components**:
-- **Seeed Studio XIAO ESP32C3**: Microcontroller
+- **Seeed Studio XIAO ESP32S3**: Microcontroller
 - **MAX7219-HLF-5V**: Display Driver IC
 - **0.56 inch 4 Digit 7 Segment Display**: Segmented displays
 - **MCMF006FF3002A50**: Through Hole Resistor
