@@ -1891,14 +1891,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Seeed_Studio_XIAO_Series:XIAO-ESP32-C3-DIP"
+		(symbol "Seeed_Studio_XIAO_Series:XIAO-ESP32-S3-DIP"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 1.016 2.794 0)
+				(at 1.27 0.508 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1907,8 +1907,8 @@
 					)
 				)
 			)
-			(property "Value" "XIAO-ESP32-C3-DIP"
-				(at 10.668 1.016 0)
+			(property "Value" "XIAO-ESP32-S3-DIP"
+				(at 9.652 -1.778 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1917,8 +1917,8 @@
 					)
 				)
 			)
-			(property "Footprint" "Seeed_Studio_XIAO_Series:XIAO-ESP32-C3-DIP"
-				(at 16.764 -29.464 0)
+			(property "Footprint" "Seeed_Studio_XIAO_Series:XIAO-ESP32-S3-DIP"
+				(at 17.018 -31.75 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1929,7 +1929,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 1.27 1.27 0)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1940,7 +1940,7 @@
 				)
 			)
 			(property "Description" ""
-				(at 1.27 1.27 0)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1950,10 +1950,10 @@
 					)
 				)
 			)
-			(symbol "XIAO-ESP32-C3-DIP_1_0"
+			(symbol "XIAO-ESP32-S3-DIP_1_0"
 				(polyline
 					(pts
-						(xy 0 0) (xy 33.02 0)
+						(xy 0 -2.54) (xy 41.91 -2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -1965,7 +1965,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -2.54) (xy 0 0)
+						(xy 0 -5.08) (xy 0 -2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -1977,7 +1977,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -6.35) (xy 0 -2.54)
+						(xy 0 -8.89) (xy 0 -5.08)
 					)
 					(stroke
 						(width 0.1524)
@@ -1989,7 +1989,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -10.16) (xy 0 -6.35)
+						(xy 0 -12.7) (xy 0 -8.89)
 					)
 					(stroke
 						(width 0.1524)
@@ -2001,7 +2001,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -13.97) (xy 0 -10.16)
+						(xy 0 -16.51) (xy 0 -12.7)
 					)
 					(stroke
 						(width 0.1524)
@@ -2013,7 +2013,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -27.94) (xy 0 -13.97)
+						(xy 0 -30.48) (xy 0 -16.51)
 					)
 					(stroke
 						(width 0.1524)
@@ -2025,7 +2025,7 @@
 				)
 				(polyline
 					(pts
-						(xy 33.02 0) (xy 33.02 -2.54)
+						(xy 41.91 -2.54) (xy 41.91 -5.08)
 					)
 					(stroke
 						(width 0.1524)
@@ -2037,7 +2037,7 @@
 				)
 				(polyline
 					(pts
-						(xy 33.02 -2.54) (xy 33.02 -6.35)
+						(xy 41.91 -5.08) (xy 41.91 -8.89)
 					)
 					(stroke
 						(width 0.1524)
@@ -2049,7 +2049,7 @@
 				)
 				(polyline
 					(pts
-						(xy 33.02 -6.35) (xy 33.02 -10.16)
+						(xy 41.91 -8.89) (xy 41.91 -12.7)
 					)
 					(stroke
 						(width 0.1524)
@@ -2061,7 +2061,7 @@
 				)
 				(polyline
 					(pts
-						(xy 33.02 -10.16) (xy 33.02 -27.94)
+						(xy 41.91 -12.7) (xy 41.91 -30.48)
 					)
 					(stroke
 						(width 0.1524)
@@ -2073,7 +2073,7 @@
 				)
 				(polyline
 					(pts
-						(xy 33.02 -27.94) (xy 0 -27.94)
+						(xy 41.91 -30.48) (xy 0 -30.48)
 					)
 					(stroke
 						(width 0.1524)
@@ -2083,12 +2083,94 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "XIAO-ESP32-C3-DIP_1_1"
+				(polyline
+					(pts
+						(xy 43.18 -5.08) (xy 41.91 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 43.18 -8.89) (xy 41.91 -8.89)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 43.18 -12.7) (xy 41.91 -12.7)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 43.18 -16.51) (xy 41.91 -16.51)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 43.18 -20.32) (xy 41.91 -20.32)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 43.18 -24.13) (xy 41.91 -24.13)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 43.18 -27.94) (xy 41.91 -27.94)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at -2.54 -2.54 0)
+					(at -2.54 -5.08 0)
 					(length 2.54)
-					(name "GPIO2_A0_D0"
+					(name "GPIO1_A0_D0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2104,9 +2186,9 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 -6.35 0)
+					(at -2.54 -8.89 0)
 					(length 2.54)
-					(name "GPIO3_A1_D1"
+					(name "GPIO2_A1_D1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2122,9 +2204,9 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 -10.16 0)
+					(at -2.54 -12.7 0)
 					(length 2.54)
-					(name "GPIO4_A2_D2"
+					(name "GPIO3_A2_D2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2140,9 +2222,9 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 -13.97 0)
+					(at -2.54 -16.51 0)
 					(length 2.54)
-					(name "GPIO5_A3_D3"
+					(name "GPIO4_A3_D3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2158,9 +2240,9 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 -17.78 0)
+					(at -2.54 -20.32 0)
 					(length 2.54)
-					(name "GPIO6_D4_SDA"
+					(name "GPIO5_A4_D4_SDA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2176,9 +2258,9 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 -21.59 0)
+					(at -2.54 -24.13 0)
 					(length 2.54)
-					(name "GPIO7_D5_SCL"
+					(name "GPIO6_A5_D5_SCL"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2194,9 +2276,9 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 -25.4 0)
+					(at -2.54 -27.94 0)
 					(length 2.54)
-					(name "GPIO21_D6_TX"
+					(name "GPIO43_D6_TX"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2212,9 +2294,9 @@
 					)
 				)
 				(pin passive line
-					(at 35.56 -25.4 180)
+					(at 44.45 -27.94 180)
 					(length 2.54)
-					(name "GPIO20_D7_RX"
+					(name "GPIO44_D7_RX"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2230,9 +2312,9 @@
 					)
 				)
 				(pin passive line
-					(at 35.56 -21.59 180)
+					(at 44.45 -24.13 180)
 					(length 2.54)
-					(name "GPIO8_D8_SCK"
+					(name "GPIO7_A8_D8_SCK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2248,9 +2330,9 @@
 					)
 				)
 				(pin passive line
-					(at 35.56 -17.78 180)
+					(at 44.45 -20.32 180)
 					(length 2.54)
-					(name "GPIO9_D9_MISO"
+					(name "GPIO8_A9_D9_MISO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2266,9 +2348,9 @@
 					)
 				)
 				(pin passive line
-					(at 35.56 -13.97 180)
+					(at 44.45 -16.51 180)
 					(length 2.54)
-					(name "GPIO10_D10_MOSI"
+					(name "GPIO9_A10_D10_MOSI"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2284,7 +2366,7 @@
 					)
 				)
 				(pin passive line
-					(at 35.56 -10.16 180)
+					(at 44.45 -12.7 180)
 					(length 2.54)
 					(name "3V3"
 						(effects
@@ -2302,7 +2384,7 @@
 					)
 				)
 				(pin passive line
-					(at 35.56 -6.35 180)
+					(at 44.45 -8.89 180)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -2320,7 +2402,7 @@
 					)
 				)
 				(pin passive line
-					(at 35.56 -2.54 180)
+					(at 44.45 -5.08 180)
 					(length 2.54)
 					(name "VBUS"
 						(effects
@@ -2824,6 +2906,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 125.73) (xy 69.85 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05f678a5-7ba0-432e-81bf-005dbff22b6d")
+	)
+	(wire
+		(pts
 			(xy 163.83 104.14) (xy 179.07 104.14)
 		)
 		(stroke
@@ -2834,7 +2926,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 92.71) (xy 71.12 92.71)
+			(xy 127 92.71) (xy 62.23 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2864,16 +2956,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 121.92) (xy 68.58 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1009f16a-8ea7-4a0b-b4c5-bbacf9126f7b")
-	)
-	(wire
-		(pts
 			(xy 237.49 82.55) (xy 147.32 82.55)
 		)
 		(stroke
@@ -2884,6 +2966,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 118.11) (xy 69.85 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15264c76-a7e0-42f9-a1ed-59a9d6387041")
+	)
+	(wire
+		(pts
 			(xy 173.99 114.3) (xy 179.07 114.3)
 		)
 		(stroke
@@ -2891,6 +2983,16 @@
 			(type default)
 		)
 		(uuid "1742cdae-f9f5-4b26-b257-ab8457e1cae4")
+	)
+	(wire
+		(pts
+			(xy 64.77 133.35) (xy 69.85 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1822867a-fcf2-47e6-84df-e41aff07ac51")
 	)
 	(wire
 		(pts
@@ -2924,13 +3026,13 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 118.11) (xy 78.74 118.11)
+			(xy 67.31 137.16) (xy 69.85 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1a36d155-038b-4fbc-9d04-cfd18edff04a")
+		(uuid "20164758-98af-416a-8b80-98fc2a172688")
 	)
 	(wire
 		(pts
@@ -2951,16 +3053,6 @@
 			(type default)
 		)
 		(uuid "2194e52e-27ed-498b-a77b-de7ccf4654c0")
-	)
-	(wire
-		(pts
-			(xy 78.74 125.73) (xy 68.58 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22c209aa-6ca7-4c00-b87f-993fb81da6b8")
 	)
 	(wire
 		(pts
@@ -3034,16 +3126,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 114.3) (xy 73.66 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3915caf4-ace0-45f6-83a5-31fc0339c1ed")
-	)
-	(wire
-		(pts
 			(xy 147.32 72.39) (xy 176.53 72.39)
 		)
 		(stroke
@@ -3084,7 +3166,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 125.73) (xy 68.58 149.86)
+			(xy 59.69 125.73) (xy 59.69 149.86)
 		)
 		(stroke
 			(width 0)
@@ -3134,7 +3216,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 90.17) (xy 127 90.17)
+			(xy 59.69 90.17) (xy 127 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3224,7 +3306,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 92.71) (xy 71.12 118.11)
+			(xy 62.23 92.71) (xy 62.23 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3354,13 +3436,23 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 121.92) (xy 68.58 90.17)
+			(xy 59.69 121.92) (xy 59.69 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "89daec67-fc64-4f37-a461-2e98a3d3fbeb")
+	)
+	(wire
+		(pts
+			(xy 59.69 121.92) (xy 69.85 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d043ec9-27a1-4207-b9c8-feffb200e38c")
 	)
 	(wire
 		(pts
@@ -3424,7 +3516,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 147.32) (xy 71.12 129.54)
+			(xy 62.23 147.32) (xy 62.23 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3434,7 +3526,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 95.25) (xy 127 95.25)
+			(xy 64.77 95.25) (xy 127 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3451,6 +3543,16 @@
 			(type default)
 		)
 		(uuid "9bc34b4d-823f-4ee2-a7b1-679b812cbec3")
+	)
+	(wire
+		(pts
+			(xy 62.23 129.54) (xy 69.85 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fc4d339-6426-4b18-89d0-d37a95f5c313")
 	)
 	(wire
 		(pts
@@ -3474,16 +3576,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 137.16) (xy 78.74 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1a58c10-45f3-4e33-8881-a7f25890bab5")
-	)
-	(wire
-		(pts
 			(xy 176.53 116.84) (xy 179.07 116.84)
 		)
 		(stroke
@@ -3504,7 +3596,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 147.32) (xy 71.12 147.32)
+			(xy 132.08 147.32) (xy 62.23 147.32)
 		)
 		(stroke
 			(width 0)
@@ -3544,16 +3636,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 133.35) (xy 78.74 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab046c9f-6f77-4140-beaa-d04cb9fc7745")
-	)
-	(wire
-		(pts
 			(xy 121.92 133.35) (xy 121.92 130.81)
 		)
 		(stroke
@@ -3564,7 +3646,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 142.24) (xy 76.2 137.16)
+			(xy 67.31 142.24) (xy 67.31 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3584,7 +3666,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 144.78) (xy 73.66 133.35)
+			(xy 64.77 144.78) (xy 64.77 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3604,7 +3686,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 142.24) (xy 76.2 142.24)
+			(xy 127 142.24) (xy 67.31 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3684,7 +3766,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 144.78) (xy 73.66 144.78)
+			(xy 129.54 144.78) (xy 64.77 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3704,7 +3786,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 114.3) (xy 73.66 95.25)
+			(xy 64.77 114.3) (xy 64.77 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3751,6 +3833,16 @@
 			(type default)
 		)
 		(uuid "cfa18bde-5bc1-473e-84fd-949b84b2d940")
+	)
+	(wire
+		(pts
+			(xy 64.77 114.3) (xy 69.85 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d234c61c-fc33-44c4-9e3a-00ca11ca4720")
 	)
 	(wire
 		(pts
@@ -3864,16 +3956,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 129.54) (xy 78.74 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5775944-44b8-4c9d-afd1-ee1d9999336a")
-	)
-	(wire
-		(pts
 			(xy 158.75 54.61) (xy 158.75 99.06)
 		)
 		(stroke
@@ -3924,7 +4006,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 149.86) (xy 134.62 149.86)
+			(xy 59.69 149.86) (xy 134.62 149.86)
 		)
 		(stroke
 			(width 0)
@@ -4319,122 +4401,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Seeed_Studio_XIAO_Series:XIAO-ESP32-C3-DIP")
-		(at 81.28 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "524a1242-959c-4a04-aee9-395060840c88")
-		(property "Reference" "U1"
-			(at 97.79 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XIAO-ESP32-C3-DIP"
-			(at 97.79 109.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Seeed Studio XIAO Series Library:XIAO-ESP32-C3-DIP"
-			(at 98.044 141.224 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 82.55 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "11"
-			(uuid "e60ec045-6104-4d07-a813-dbe4f0be0f02")
-		)
-		(pin "14"
-			(uuid "dfc42744-9610-4b32-bbda-ddf1c6130527")
-		)
-		(pin "12"
-			(uuid "76416c9f-930f-45ff-ac9d-0f156a5e9993")
-		)
-		(pin "13"
-			(uuid "feb9d688-0696-438b-ac6b-44b68252919b")
-		)
-		(pin "4"
-			(uuid "ba8f7dcd-8bcf-48a3-9011-667e224fb5ed")
-		)
-		(pin "9"
-			(uuid "ec148083-eb75-481b-8f6e-c5a3acdd3964")
-		)
-		(pin "7"
-			(uuid "a1df6900-ee87-489b-bfc5-9fb42941cab3")
-		)
-		(pin "8"
-			(uuid "3c5a1403-af3c-4ed1-b437-441a00e29c0b")
-		)
-		(pin "1"
-			(uuid "582ced9f-d3f2-4d31-8aec-cc563cc56465")
-		)
-		(pin "5"
-			(uuid "01c99431-a7b2-44da-a725-7bf3cf02170d")
-		)
-		(pin "10"
-			(uuid "4a5b3e14-3f55-4ac9-bc56-c1c4d49ae3ae")
-		)
-		(pin "2"
-			(uuid "d39c8bbf-fbec-417b-b936-0b1546c90fd7")
-		)
-		(pin "3"
-			(uuid "33cd373b-19ae-44d7-9286-c053f06ef498")
-		)
-		(pin "6"
-			(uuid "aad2ca9e-9b64-4324-9b44-749cb6d66958")
-		)
-		(instances
-			(project "dodeca-card"
-				(path "/ee54516e-54e9-4c6b-b1cf-2804f74272de"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 125.73 121.92 0)
 		(unit 1)
@@ -4585,6 +4551,122 @@
 			(project "dodeca-card"
 				(path "/ee54516e-54e9-4c6b-b1cf-2804f74272de"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seeed_Studio_XIAO_Series:XIAO-ESP32-S3-DIP")
+		(at 72.39 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd8c3201-d33b-4370-8b70-6ba9b2450417")
+		(property "Reference" "U1"
+			(at 93.98 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XIAO-ESP32-S3-DIP"
+			(at 93.98 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Seeed Studio XIAO Series Library:XIAO-ESP32-S3-DIP"
+			(at 89.408 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "9"
+			(uuid "15e4a092-ca41-47ab-824f-afc20678fbee")
+		)
+		(pin "4"
+			(uuid "21c65b85-9a4c-470d-b411-5ea3f790307a")
+		)
+		(pin "1"
+			(uuid "6a9931a1-f454-4dce-9253-9debad693903")
+		)
+		(pin "3"
+			(uuid "f88b695d-2e59-4250-a2d8-7bb4feee14e8")
+		)
+		(pin "7"
+			(uuid "1a01b2fa-1bea-420f-87c3-48f68307dfe8")
+		)
+		(pin "8"
+			(uuid "8e7ad834-1691-42d1-b355-f8567c0f1a65")
+		)
+		(pin "11"
+			(uuid "1958db18-4792-4acc-9040-41831fd35845")
+		)
+		(pin "6"
+			(uuid "d8eebce3-c6eb-476c-90b4-4b4808511073")
+		)
+		(pin "5"
+			(uuid "279c1c42-6321-40ac-bebb-9f6b19b3b1d1")
+		)
+		(pin "12"
+			(uuid "c3f17c90-67eb-4355-974b-b04a8ea60e9c")
+		)
+		(pin "10"
+			(uuid "7e3885d5-58c3-4853-b636-864177404bd1")
+		)
+		(pin "14"
+			(uuid "7e3d5916-4b07-455a-a44f-f4a5e3f5b53b")
+		)
+		(pin "2"
+			(uuid "509d642d-4ecd-4bfb-9784-3f70cd2c3355")
+		)
+		(pin "13"
+			(uuid "f8a2cc91-f2bd-45de-b77f-501e75de762d")
+		)
+		(instances
+			(project "dodeca-card"
+				(path "/ee54516e-54e9-4c6b-b1cf-2804f74272de"
+					(reference "U1")
 					(unit 1)
 				)
 			)
